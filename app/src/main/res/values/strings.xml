@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Login</string>
+    <string name="et_name">Name</string>
+    <string name="et_lastname">LastName</string>
+    <string name="et_email">Email</string>
+    <string name="et_pasword">Password</string>
 </resources>

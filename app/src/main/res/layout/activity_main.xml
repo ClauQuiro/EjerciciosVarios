@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_perfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -25,10 +25,10 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="160dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="@string/et_name"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/iv_perfil" />
 
     <EditText
         android:id="@+id/et_lastname"
@@ -37,7 +37,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="160dp"
         android:ems="10"
-        android:hint="LastName"
+        android:hint="@string/et_lastname"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_name" />
@@ -49,7 +49,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="164dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/et_email"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_lastname" />
@@ -61,7 +61,7 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="160dp"
         android:ems="10"
-        android:hint="Pasword"
+        android:hint="@string/et_pasword"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_email" />
@@ -70,8 +70,12 @@
         android:id="@+id/btnCrear"
         android:layout_width="282dp"
         android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#9C27B0"
         android:text="Crear Cuenta"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="535dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_pasword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
