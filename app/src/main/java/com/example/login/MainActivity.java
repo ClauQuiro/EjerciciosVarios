@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
     private void loadImage() {
 
         Picasso.get()
-                .load("https://w7.pngwing.com/pngs/549/684/png-transparent-goku-trunks-gohan-vegeta-frieza-son-goku.png")
+                //.load("https://w7.pngwing.com/pngs/549/684/png-transparent-goku-trunks-gohan-vegeta-frieza-son-goku.png")
+                .load("https://modatoponline.com/wp-content/uploads/2017/07/18-6.jpg")
                 .placeholder(R.mipmap.ic_launcher)//mientras se descarga imagen
                 .into(imageView);
     }
